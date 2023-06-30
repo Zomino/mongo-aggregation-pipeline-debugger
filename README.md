@@ -6,3 +6,5 @@ In other words, there is no way to check the state of the documents at an interm
 
 This tool repeatedly runs the pipeline for every stage, and collects the results of running the pipeline up to each stage.
 This allows the output of each stage to be compared with the outputs from other stages.
+
+**This is just a quick package I designed for fun.**
