@@ -4,7 +4,7 @@ interface Options {
     sampleSize?: number;
 };
 
-async function debugMongoAggregationPipeline<T>(model: Model<T>, pipeline: PipelineStage[], options: Options = {}) {
+export async function debugMongoAggregationPipeline<T>(model: Model<T>, pipeline: PipelineStage[], options: Options = {}) {
     const { sampleSize } = options;
 
     const results = [];
