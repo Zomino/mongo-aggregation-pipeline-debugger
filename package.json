@@ -18,5 +18,8 @@
   "homepage": "https://github.com/Zomino/mongo-aggregation-pipeline-debugger-for-mongoose#readme",
   "devDependencies": {
     "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "mongoose": "^7.3.1"
   }
 }
